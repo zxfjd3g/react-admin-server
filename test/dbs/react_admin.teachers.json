@@ -1,0 +1,26 @@
+{ 
+    "_id" : ObjectId("5f018baa979d4f1cb42932f6"), 
+    "deleted" : false, 
+    "gmtCreate" : ISODate("2020-07-05T08:13:30.000+0000"), 
+    "gmtModified" : ISODate("2020-07-05T08:13:30.000+0000"), 
+    "name" : "婷婷", 
+    "level" : NumberInt(2), 
+    "intro" : "尚硅谷颜值第一的美女老师", 
+    "career" : "颜值担当，课堂语言极具魅力", 
+    "avatar" : "http://www.atguigu.com/teacher/new/liyuting.jpg", 
+    "sort" : NumberInt(2), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f018b2d979d4f1cb42932f4"), 
+    "deleted" : false, 
+    "gmtCreate" : ISODate("2020-07-05T08:11:25.000+0000"), 
+    "gmtModified" : ISODate("2020-07-05T08:11:25.000+0000"), 
+    "name" : "老刘", 
+    "level" : NumberInt(1), 
+    "intro" : "激情派讲师，开车很稳，没时间解释了，快上车", 
+    "career" : "带你学习，带你飞", 
+    "avatar" : "http://www.atguigu.com/teacher/new/liuzhiyuan.jpg", 
+    "sort" : NumberInt(1), 
+    "__v" : NumberInt(0)
+}

@@ -1,0 +1,16 @@
+{ 
+    "_id" : ObjectId("5e7d5ad4004b360c9c8d7b0f"), 
+    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlN2Q1YWQ0MDA0YjM2MGM5YzhkN2IwZiIsImlhdCI6MTU5MzkzNzUwMCwiZXhwIjoxNTk0NTQyMzAwfQ.lmePn6AAJgHg_cshKv05TsiDnxrPtJfA3g9-RbMaZ-Q", 
+    "salt" : "Zrrf2mvs^sD@xquG", 
+    "deleted" : false, 
+    "gmtCreate" : ISODate("2020-03-27T01:45:56.000+0000"), 
+    "gmtModified" : ISODate("2020-07-05T08:25:00.000+0000"), 
+    "roleId" : "5e7c6d21b3071d0e44c8b231", 
+    "avatar" : "https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif", 
+    "username" : "admin", 
+    "password" : "844ec4df49dd2046f35bc6da2fe367c1", 
+    "nickName" : "admin", 
+    "__v" : NumberInt(0), 
+    "code" : NumberInt(0), 
+    "expires" : NumberInt(0)
+}

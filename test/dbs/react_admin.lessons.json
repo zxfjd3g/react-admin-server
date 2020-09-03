@@ -1,0 +1,160 @@
+{ 
+    "_id" : ObjectId("5f019458becd5c186cb6fd26"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/03/19/mp4/190319212559089721.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f019154becd5c186cb6fd1e", 
+    "title" : "第1课时-超文本标记语言", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f0194b3becd5c186cb6fd27"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/03/18/mp4/190318231014076505.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f019154becd5c186cb6fd1e", 
+    "title" : "第2课时-常用标签", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f0194e7becd5c186cb6fd28"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/03/19/mp4/190319104618910544.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f019214becd5c186cb6fd1f", 
+    "title" : "第1课时-圣杯布局", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f019536becd5c186cb6fd29"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/03/19/mp4/190319104618910544.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f019214becd5c186cb6fd1f", 
+    "title" : "第2课时-双飞翼布局", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f019e95becd5c186cb6fd2c"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f019247becd5c186cb6fd20", 
+    "title" : "第1课时-HTML5的定义", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f019e9ebecd5c186cb6fd2d"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f019247becd5c186cb6fd20", 
+    "title" : "第2课时-HTML5的优势", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f019ec6becd5c186cb6fd2e"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f019260becd5c186cb6fd21", 
+    "title" : "第1课时-常用的语义化标签", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f019ed8becd5c186cb6fd2f"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f019260becd5c186cb6fd21", 
+    "title" : "第2课时-语义化标签使用原则", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f019effbecd5c186cb6fd30"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f019277becd5c186cb6fd22", 
+    "title" : "第1课时-JavaScript发展史", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f019fafbecd5c186cb6fd31"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f019277becd5c186cb6fd22", 
+    "title" : "第2课时-JavaScript的应用场景", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f019fc5becd5c186cb6fd32"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f01929ebecd5c186cb6fd23", 
+    "title" : "第1课时-Number", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f019fd0becd5c186cb6fd33"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f01929ebecd5c186cb6fd23", 
+    "title" : "第2课时-String", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f019ff1becd5c186cb6fd34"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f0192debecd5c186cb6fd24", 
+    "title" : "第1课时-基本数据类型内存分析", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f019ffbbecd5c186cb6fd35"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f0192debecd5c186cb6fd24", 
+    "title" : "第2课时-对象类型内存分析", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f01a049becd5c186cb6fd36"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f0192f6becd5c186cb6fd25", 
+    "title" : "第1课时-prototype", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f01a060becd5c186cb6fd37"), 
+    "free" : true, 
+    "video" : "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4", 
+    "gmtCreate" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "gmtModified" : ISODate("2020-07-04T16:00:00.000+0000"), 
+    "chapterId" : "5f0192f6becd5c186cb6fd25", 
+    "title" : "第2课时-__proto__", 
+    "__v" : NumberInt(0)
+}
