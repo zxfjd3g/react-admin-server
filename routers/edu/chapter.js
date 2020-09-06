@@ -25,13 +25,15 @@ const filter = {
  * @apiParam {String} title 章节名称
  * @apiSuccess {Object} data 章节数据
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {
- *      },
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+		"_id": "5f019154becd5c186cb6fd1e",
+		"title": "第一章节-初始HTML"
+	},
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/chapter/save
  * @apiVersion 1.0.0
  */
@@ -60,13 +62,18 @@ router.post("/save", async (req, res) => {
  * @apiParam {String} courseId 课程id
  * @apiSuccess {Object} data 章节数据
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {
- *      },
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+    "total": 8,
+    "items": [{
+      "_id": "5f019154becd5c186cb6fd1e",
+      "title": "第一章节-初始HTML"
+    }]
+  },
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/chapter/:page/:limit
  * @apiVersion 1.0.0
  */
@@ -111,13 +118,16 @@ router.get("/:page/:limit", async (req, res) => {
  * @apiParam {String} title 章节标题
  * @apiSuccess {Object} data
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {
- *      },
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+		"ok":1,
+		"nModified":1,
+		"n":1
+	},
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/chapter/update
  * @apiVersion 1.0.0
  */
@@ -147,13 +157,16 @@ router.put("/update", async (req, res) => {
  * @apiParam {String} chapterId 章节id
  * @apiSuccess {Object} data
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {
- *      },
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+    "ok": 1,
+    "n": 1,
+    "deletedCount": 1
+  },
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/chapter/remove/:chapterId
  * @apiVersion 1.0.0
  */
@@ -182,13 +195,16 @@ router.delete("/remove/:chapterId", async (req, res) => {
  * @apiParam {String[]} idList 章节id列表
  * @apiSuccess {Object} data
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {
- *      },
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+    "ok": 1,
+    "n": 2,
+    "deletedCount": 2
+  },
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/chapter/batchRemove
  * @apiVersion 1.0.0
  */

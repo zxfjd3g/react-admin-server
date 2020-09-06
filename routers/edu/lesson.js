@@ -24,13 +24,20 @@ const filter = {
  * @apiParam {String} video 视频路径
  * @apiSuccess {Object} data
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {
- *      },
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+    "free": true,
+    "video": "http://vfx.mtime.cn/Video/2019/03/19/mp4/190319212559089721.mp4",
+    "gmtCreate": "2020-07-04T16:00:00.000Z",
+    "gmtModified": "2020-07-04T16:00:00.000Z",
+    "_id": "5f019458becd5c186cb6fd26",
+    "chapterId": "5f019154becd5c186cb6fd1e",
+    "title": "第1课时-超文本标记语言"
+  },
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/lesson/save
  * @apiVersion 1.0.0
  */
@@ -57,13 +64,20 @@ router.post("/save", async (req, res) => {
  * @apiParam {String} chapterId 章节id
  * @apiSuccess {Object} data
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {
- *      },
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": [{
+    "free": true,
+    "video": "http://vfx.mtime.cn/Video/2019/03/19/mp4/190319212559089721.mp4",
+    "gmtCreate": "2020-07-04T16:00:00.000Z",
+    "gmtModified": "2020-07-04T16:00:00.000Z",
+    "_id": "5f019458becd5c186cb6fd26",
+    "chapterId": "5f019154becd5c186cb6fd1e",
+    "title": "第1课时-超文本标记语言"
+  }],
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/lesson/get/:chapterId
  * @apiVersion 1.0.0
  */
@@ -95,13 +109,16 @@ router.get("/get/:chapterId", async (req, res) => {
  * @apiParam {String} video 视频路径
  * @apiSuccess {Object} data
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {
- *      },
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+		"ok":1,
+		"nModified":1,
+		"n":1
+	},
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/lesson/update
  * @apiVersion 1.0.0
  */
@@ -142,13 +159,16 @@ router.put("/update", async (req, res) => {
  * @apiParam {String} lessonId 课时id
  * @apiSuccess {Object} data
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {
- *      },
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+    "ok": 1,
+    "n": 1,
+    "deletedCount": 1
+  },
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/lesson/remove/:lessonId
  * @apiVersion 1.0.0
  */
@@ -175,13 +195,16 @@ router.delete("/remove/:lessonId", async (req, res) => {
  * @apiParam {String[]} idList 课时id列表
  * @apiSuccess {Object} data
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {
- *      },
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+    "ok": 1,
+    "n": 2,
+    "deletedCount": 2
+  },
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/lesson/batchRemove
  * @apiVersion 1.0.0
  */

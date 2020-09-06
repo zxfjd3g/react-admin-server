@@ -28,13 +28,28 @@ const filter = {
  * @apiParam {String} cover 可选，课程图片
  * @apiSuccess {Object} data 课程数据
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {
- *      },
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+		"cover": "http://www.gulixueyuan.com/files/default/2018/06-15/09102735e577607108.jpg",
+		"buyCount": 0,
+		"viewCount": 0,
+		"version": 1,
+		"status": 2,
+		"gmtCreate": "2020-07-05T08:27:31.000Z",
+		"gmtModified": "2020-07-05T08:27:31.000Z",
+		"_id": "5f018ef3becd5c186cb6fd1b",
+		"teacherId": "5f018b2d979d4f1cb42932f4",
+		"subjectId": "5ee17301c311f5151c523332",
+		"subjectParentId": "5ee1719ec311f5151c523329",
+		"title": "HTML5",
+		"price": 0,
+		"lessonNum": 120,
+		"description": "老刘带你学习H5"
+	},
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/course/save
  * @apiVersion 1.0.0
  */
@@ -63,13 +78,16 @@ router.post("/save", async (req, res) => {
  * @apiParam {String} courseId 课程id
  * @apiSuccess {Object} data 课程数据
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {
- *      },
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+		"ok":1,
+		"nModified":1,
+		"n":1
+	},
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/course/publish
  * @apiVersion 1.0.0
  */
@@ -109,13 +127,16 @@ router.put("/publish", async (req, res) => {
  * @apiParam {String} cover 可选，课程图片
  * @apiSuccess {Object} data 课程数据
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {
- *      },
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+		"ok":1,
+		"nModified":1,
+		"n":1
+	},
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/course/update
  * @apiVersion 1.0.0
  */
@@ -152,13 +173,31 @@ router.put("/update", async (req, res) => {
  * @apiParam {String} title 可选，课程名称(模糊匹配)
  * @apiSuccess {Object} data 课程数据
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {
- *      },
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+    "total": 4,
+    "items": [{
+      "cover": "http://www.gulixueyuan.com/files/default/2018/06-15/09102735e577607108.jpg",
+      "buyCount": 0,
+      "viewCount": 0,
+      "version": 1,
+      "status": 2,
+      "gmtCreate": "2020-07-05T08:27:31.000Z",
+      "gmtModified": "2020-07-05T08:27:31.000Z",
+      "_id": "5f018ef3becd5c186cb6fd1b",
+      "teacherId": "5f018b2d979d4f1cb42932f4",
+      "subjectId": "5ee17301c311f5151c523332",
+      "subjectParentId": "5ee1719ec311f5151c523329",
+      "title": "HTML5",
+      "price": 0,
+      "lessonNum": 120,
+      "description": "老刘带你学习H5"
+    }]
+  },
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/course/:page/:limit
  * @apiVersion 1.0.0
  */
@@ -217,13 +256,28 @@ router.get("/:page/:limit", async (req, res) => {
  * @apiHeader {String} token 权限令牌
  * @apiSuccess {Object} data 课程数据
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {
- *      },
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": [{
+    "cover": "http://www.gulixueyuan.com/09182518e199529245.jpg",
+    "buyCount": 0,
+    "viewCount": 0,
+    "version": 1,
+    "status": 2,
+    "gmtCreate": "2020-07-05T08:25:11.000Z",
+    "gmtModified": "2020-07-05T08:25:11.000Z",
+    "_id": "5f018e67becd5c186cb6fd1a",
+    "teacherId": "5f018b2d979d4f1cb42932f4",
+    "subjectId": "5ee17301c311f5151c523332",
+    "subjectParentId": "5ee1719ec311f5151c523329",
+    "title": "深入浅出HTML",
+    "price": 0,
+    "lessonNum": 120,
+    "description": "老刘带你深入浅出html"
+  }],
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/course
  * @apiVersion 1.0.0
  */

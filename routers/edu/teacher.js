@@ -16,12 +16,23 @@ const router = new Router();
  * @apiHeader {String} token 权限令牌
  * @apiSuccess {Object[]} data 所有讲师列表
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : [{}],
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": [{
+    "gmtCreate": "2020-07-05T08:13:30.000Z",
+    "gmtModified": "2020-07-05T08:13:30.000Z",
+    "_id": "5f018baa979d4f1cb42932f6",
+    "name": "婷婷",
+    "level": 2,
+    "intro": "尚硅谷颜值第一的美女老师",
+    "career": "颜值担当，课堂语言极具魅力",
+    "avatar": "http://www.atguigu.com/teacher/new/liyuting.jpg",
+    "sort": 2,
+    "__v": 0
+  }],
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/teacher/list
  * @apiVersion 1.0.0
  */
@@ -131,12 +142,26 @@ router.get("/name/:key", async (req, res) => {
  * @apiSuccess {Number} total 总数
  * @apiSuccess {Object[]} items 讲师列表数据
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {"total": 10, "items": [{}, {}]},
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+    "total": 2,
+    "items": [{
+      "gmtCreate": "2020-07-05T08:13:30.000Z",
+      "gmtModified": "2020-07-05T08:13:30.000Z",
+      "_id": "5f018baa979d4f1cb42932f6",
+      "name": "婷婷",
+      "level": 2,
+      "intro": "尚硅谷颜值第一的美女老师",
+      "career": "颜值担当，课堂语言极具魅力",
+      "avatar": "http://www.atguigu.com/teacher/new/liyuting.jpg",
+      "sort": 2,
+      "__v": 0
+    }]
+  },
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/teacher/:page/:limit
  * @apiVersion 1.0.0
  */
@@ -201,12 +226,23 @@ router.get("/:page/:limit", async (req, res) => {
  * @apiParam {Number} sort 排序
  * @apiSuccess {Object} data 讲师数据
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {},
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+    "gmtCreate": "2020-07-05T08:13:30.000Z",
+    "gmtModified": "2020-07-05T08:13:30.000Z",
+    "_id": "5f018baa979d4f1cb42932f6",
+    "name": "婷婷",
+    "level": 2,
+    "intro": "尚硅谷颜值第一的美女老师",
+    "career": "颜值担当，课堂语言极具魅力",
+    "avatar": "http://www.atguigu.com/teacher/new/liyuting.jpg",
+    "sort": 2,
+    "__v": 0
+  }
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/teacher/save
  * @apiVersion 1.0.0
  */
@@ -236,12 +272,16 @@ router.post("/save", async (req, res) => {
  * @apiParam {Number} sort 排序
  * @apiSuccess {json} data
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {},
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+		"ok":1,
+		"nModified":1,
+		"n":1
+	},
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/teacher/update
  * @apiVersion 1.0.0
  */
@@ -266,12 +306,16 @@ router.put("/update", async (req, res) => {
  * @apiParam {String} id 讲师id
  * @apiSuccess {json} data
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {},
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+    "ok": 1,
+    "n": 1,
+    "deletedCount": 1
+  },
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/teacher/remove/:id
  * @apiVersion 1.0.0
  */
@@ -296,12 +340,16 @@ router.delete("/remove/:id", async (req, res) => {
  * @apiParam {String[]} idList 讲师id列表
  * @apiSuccess {json} data
  * @apiSuccessExample {json} Success-Response:
- *  {
- *      "code": 20000,
- *      "success" : true,
- *      "data" : {},
- *      "message": ""
- *  }
+{
+  "code": 20000,
+  "data": {
+    "ok": 1,
+    "n": 2,
+    "deletedCount": 2
+  },
+  "message": "成功",
+  "success": true
+}
  * @apiSampleRequest http://localhost:5000/admin/edu/teacher/batchRemove
  * @apiVersion 1.0.0
  */
