@@ -133,11 +133,11 @@ router.get("/:page/:limit", async (req, res) => {
  */
 router.put("/update", async (req, res) => {
 	const { chapterId, title } = req.body;
-
+	console.log('/update',  chapterId, title)
 	try {
 		const result = await Chapters.updateOne(
 			{
-				chapterId,
+				_id: chapterId,
 			},
 			{ $set: { title } }
 		);
